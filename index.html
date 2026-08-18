@@ -230,7 +230,6 @@
                 class="barcode-img"
                 loading="eager"
             >
-            <div class="card-number" id="cardNumber">7789 •••• •••• 1024</div>
         </div>
 
         <!-- Кнопки быстрых действий -->
@@ -270,7 +269,7 @@
 
 <script>
     function copyCardNumber() {
-        const cardNumber = "7789000000001024"; // Укажите реальный номер карты при необходимости
+        const cardNumber = ""; // Укажите реальный номер карты при необходимости
         navigator.clipboard.writeText(cardNumber).then(() => {
             alert("Номер карты скопирован!");
         }).catch(err => {
